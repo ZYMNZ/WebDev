@@ -9,3 +9,7 @@
 3. https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
 
 ^ interact with RGB colors
+
+4. https://colorhunt.co/palettes/
+
+^ unique colors to choose from 
