@@ -22,8 +22,13 @@
 
 ^ a css artist (creates oil paintings with JUST HTML AND CSS 🤯)
 
+6a. https://pattle.github.io/simpsons-in-css/
 
+^simpsons
 
+6b. http://lascarid.es/fussyflags/ 
+
+^ flags
 
 
 
