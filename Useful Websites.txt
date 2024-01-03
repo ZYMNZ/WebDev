@@ -31,6 +31,8 @@
 ^ flags
 
 
+7. https://appbrewery.github.io/css-display/
 
+^ css display(inline, block, inline-block) demo 
 
 
