@@ -17,3 +17,15 @@
 5. appbrewery.github.io/css-positioning/
 
 ^ positioning in css (static, relative, absolute, fixed) Demo
+
+6. https://diana-adrianne.com/purecss-lace/
+
+^ a css artist (creates oil paintings with JUST HTML AND CSS 🤯)
+
+
+
+
+
+
+
+
