@@ -1,1 +1,1 @@
-# Here I'll be commiting everything that I've been learning
+# Here I'll be committing everything that I've been learning
