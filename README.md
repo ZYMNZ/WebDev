@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Writing the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
@@ -47,4 +47,14 @@
     - static
     - relative
     - absolute
-    - fixed  
+    - fixed
+   
+  - **float**  
+    - left <br>
+      BEFORE:<br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=500px> <br>
+      AFTER: <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6afff844-9fed-4aab-8e98-8e910fa73456" width=500px>
+
+
+
