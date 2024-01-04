@@ -32,3 +32,9 @@
     - 1px = 1/96th inch
     - 1em = 100% of parent (meaning if the parent is 20px the element will be 20px too)
     - 2em = 200% (meaning if the parent is 20px the element will be 2 x 20px = 40px)
+  
+  - **Display**
+    - block 
+    - inline
+    - inline-block
+  
