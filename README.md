@@ -1,4 +1,4 @@
-# Here I'll be committing everything that I've been learning
+# NOTE this repo will be updated frequently! 
 
 ## Technologies learned🛠️ <br>
 ### HTML <br>
