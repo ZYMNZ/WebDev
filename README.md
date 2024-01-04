@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Writing the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
@@ -50,16 +50,22 @@
     - fixed
    
   - **float**  
-    - left <br>
+    - left <br><p>
       BEFORE:<br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=200px> <br>
       AFTER: <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/f6dd7682-9bdd-41f2-b256-df32f8f6f648" width=500px>
-     - right <br>
+     - right <br><p>
       BEFORE:<br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=200px> <br>
       AFTER: <br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/5c6dd494-65c6-4776-b737-ac1bffef2fb2" width=500px>
-
-
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/5c6dd494-65c6-4776-b737-ac1bffef2fb2" width=500px> <br>
+  - **clear**
+    Used when we need to avoid the style effect "float: left" that the element before has. 
+     - left <br><p>
+      BEFORE:<br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/476358c1-c3c8-47b6-9c2a-0bf948589ad5" width=500px> <br>
+      AFTER: <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9a15498c-6419-4d95-ae03-f7ae3b5d133b" width=500> <br>
+    - to be continued
 
