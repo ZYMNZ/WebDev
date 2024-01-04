@@ -52,9 +52,14 @@
   - **float**  
     - left <br>
       BEFORE:<br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=500px> <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=200px> <br>
       AFTER: <br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6afff844-9fed-4aab-8e98-8e910fa73456" width=500px>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/f6dd7682-9bdd-41f2-b256-df32f8f6f648" width=500px>
+     - right <br>
+      BEFORE:<br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0663c868-da33-4a86-9213-78c4c9146627" width=200px> <br>
+      AFTER: <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/5c6dd494-65c6-4776-b737-ac1bffef2fb2" width=500px>
 
 
 
