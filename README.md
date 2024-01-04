@@ -1,4 +1,4 @@
-# NOTE this repo will be updated frequently! 
+# NOTE this will be updated frequently! 
 
 ## Technologies learned🛠️ <br>
 ### HTML <br>
@@ -67,5 +67,7 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/476358c1-c3c8-47b6-9c2a-0bf948589ad5" width=500px> <br>
       AFTER: <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9a15498c-6419-4d95-ae03-f7ae3b5d133b" width=500> <br>
-    - to be continued
+    - both <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/99149cfd-62ff-4441-816f-0a948acc4147" width=500> <br>
+      
 
