@@ -35,4 +35,6 @@
 
 ^ css display(inline, block, inline-block) demo 
 
+8. https://tastybasics.nl/
 
+^ example of a responsive website
