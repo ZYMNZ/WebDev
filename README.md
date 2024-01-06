@@ -37,9 +37,9 @@
     - block (takes up the entire full width of the web page) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/aff2b44c-df0d-44f3-9927-df4a181ecb26" width=500px>
       
-    - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.)
+    - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/1e86f080-e2f6-41e3-9eda-e2af672b6e3e" width=500px>
-    - inline-block (make an element behave like both an inline and a block-level element. It allows the element to flow inline with surrounding content while                     also maintaining block-level properties, such as setting a specific width and height.)
+    - inline-block (make an element behave like both an inline and a block-level element. It allows the element to flow inline with surrounding content while                     also maintaining block-level properties, such as setting a specific width and height.) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
 
 
