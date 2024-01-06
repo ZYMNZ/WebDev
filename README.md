@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Writing the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
@@ -70,4 +70,8 @@
     - both <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/99149cfd-62ff-4441-816f-0a948acc4147" width=500> <br>
       
-
+  - **@media**
+     BEFORE:<br>
+     <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b11c648a-3b42-406d-a405-ce705593352a" width=500px> <br>
+     AFTER: <br>
+     <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/24fd9dbd-e4d8-4eff-baf5-70865de0713c" width=500> <br>
