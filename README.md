@@ -71,8 +71,15 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/99149cfd-62ff-4441-816f-0a948acc4147" width=500> <br>
       
   - **@media**
-    - max-width: ###px
+    - @media(max-width: ###px)
      BEFORE:<br>
      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b11c648a-3b42-406d-a405-ce705593352a" width=500px> <br>
      AFTER: <br>
      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/24fd9dbd-e4d8-4eff-baf5-70865de0713c" width=500> <br>
+     - @media(min-width: ###px)
+     - @media(min-width: ###px) and (max-width: ###px) <br>
+       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/c46c8d9d-c0d0-440e-9a92-080cc66238f5" width=500> <br>
+     - @media(max-width: ###px) and (min-width: ###px) <br>
+       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/2e4b9411-8307-4d7b-84d3-d48fb690193a" width=500> <br>
+     - @media ~screen~ (orientation: landscape) <br>
+       The screen keyword is _not_ necessary by default because it's going to apply to all screens. Where do we use the orientation? It's when we want to target the website whenever it's being ***printed***
