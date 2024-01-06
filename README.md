@@ -71,6 +71,7 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/99149cfd-62ff-4441-816f-0a948acc4147" width=500> <br>
       
   - **@media**
+    - max-width: ###px
      BEFORE:<br>
      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b11c648a-3b42-406d-a405-ce705593352a" width=500px> <br>
      AFTER: <br>
