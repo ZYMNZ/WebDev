@@ -18,6 +18,19 @@ footer {
   text-align: right;
   color: midnightblue;
 }
+
+.tile-image{
+  float: left;
+  height: 200px;
+  margin-right: 50px;
+}
+.card {
+  width: 45%;
+}
+.logo{
+  width: unset;
+}
+
 @media (max-width: 680px) {
   .logo{
     width: 100px;
@@ -28,18 +41,14 @@ footer {
   }
   .tile-image{
     width: 100%;
+    object-fit: cover;
+  }
+  .card{
+    width: 100%;
     display: block;
   }
 }
-.logo{
-  width: unset;
-}
 
-.tile-image{
-  float: left;
-  height: 200px;
-  margin-right: 50px;
-}
 
 .left{
   float: left;
@@ -49,9 +58,7 @@ footer {
   float: right;
 }
 
-.card {
-  width: 45%;
-}
+
 
 footer > p {
   width: unset;
