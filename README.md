@@ -39,7 +39,9 @@
       
     - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/1e86f080-e2f6-41e3-9eda-e2af672b6e3e" width=500px>
+      
     - inline-block (make an element behave like both an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br>
+    
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
     - flex <br>
       - We wrap the elements(tags) with a div that has the display=flex to apply the flex structure.
@@ -49,7 +51,12 @@
       
     - inline-flex <br>
       - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line <br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=500px>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
+
+    -  flex-direction: row (by default) <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
+    - flex-direction: column <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
 
       
 
