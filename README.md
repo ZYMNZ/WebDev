@@ -57,6 +57,9 @@
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
     - flex-direction: column <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
+    - flex-basis: ###px <br>
+      This will extend along the main-axis <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px>
 
       
 
