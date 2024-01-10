@@ -53,11 +53,11 @@
       - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line. **_It will only occupy as much width as the content_** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
 
-    -  flex-direction: row (by default) <br>
+    -  flex-direction: row (by default, APPLIED TO THE PARENT) <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
     - flex-direction: column <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
-    - flex-basis: ###px <br>
+    - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
       This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br>
         - Column direction <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
