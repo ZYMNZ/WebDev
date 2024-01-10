@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`, `flex`, `inline-flex`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Write the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
