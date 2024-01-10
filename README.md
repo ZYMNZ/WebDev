@@ -44,7 +44,7 @@
     
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
     - flex <br>
-      - We wrap the elements(tags) with a div that has the display=flex to apply the flex structure.
+      - We wrap the elements(tags) with a div with the display=flex to apply the flex structure. We add "flex" in the **_container_** div.
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/dec7624e-e086-4d0b-b00d-812f82dd86de" width=500px>
       
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/62ef91f7-8659-4133-92a8-2552f0de6b54" width=500px>
@@ -58,8 +58,11 @@
     - flex-direction: column <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
     - flex-basis: ###px <br>
-      This will extend along the main-axis <br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px>
+      This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br>
+        - Column direction <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
+        - Row direction <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/4eb35126-7ca0-4040-b9da-1558dffccb5b" width=500px>
 
       
 
