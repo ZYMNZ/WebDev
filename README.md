@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`, `flex`, `inline-flex`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Write the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
@@ -39,17 +39,30 @@
       
     - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/1e86f080-e2f6-41e3-9eda-e2af672b6e3e" width=500px>
+      
     - inline-block (make an element behave like both an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br>
+    
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
     - flex <br>
-      - We wrap the elements(tags) with a div that has the display=flex to apply the flex structure.
+      - We wrap the elements(tags) with a div with the display=flex to apply the flex structure. We add "flex" in the **_container_** div.
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/dec7624e-e086-4d0b-b00d-812f82dd86de" width=500px>
       
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/62ef91f7-8659-4133-92a8-2552f0de6b54" width=500px>
       
     - inline-flex <br>
-      - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line <br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=500px>
+      - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line. **_It will only occupy as much width as the content_** <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
+
+    -  flex-direction: row (by default) <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
+    - flex-direction: column <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
+    - flex-basis: ###px <br>
+      This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br>
+        - Column direction <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
+        - Row direction <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/4eb35126-7ca0-4040-b9da-1558dffccb5b" width=500px>
 
       
 
