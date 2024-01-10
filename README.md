@@ -64,7 +64,18 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/c79e498f-6786-42d6-b4e1-68c3cfa335b9" width=500px> <br>
     - flex: wrap <br>
       It's opposite to `nowrap`, where if the flex-items cant fit in one line because of the screen size, it'll wrap/move the items to the next line! (RESPONSIVE) <br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px> <br><br>
+
+      ### **justify-content** <br>
+        - Sets the distribution of the items along the main-axis <br>
+      > Note: to apply this type of CSS, there should be some space left! Meaning the items don't occupy the entire container. <br>
+      
+        - justify-content: flex-start
+          This will squish everything to the `left/start` side of the **container** <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/e6cbf8f3-2195-4097-ad37-349891be0e93" width=500px> <br>
+        - justify-content: flex-end
+          This will squish everything to the `right/end` side of the **container** <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8e7ccccb-7332-4f40-b4f0-5be629c81e32" width=500px> <br>
 
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
