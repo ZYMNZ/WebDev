@@ -34,17 +34,17 @@
     - 2em = 200% (meaning if the parent is 20px the element will be 2 x 20px = 40px)
   
   - **display**
-    - block (takes up the entire full width of the web page) <br>
+    - block (takes up the entire full width of the web page) <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/aff2b44c-df0d-44f3-9927-df4a181ecb26" width=500px>
       
-    - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br>
+    - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/1e86f080-e2f6-41e3-9eda-e2af672b6e3e" width=500px>
       
-    - inline-block (make an element behave like both an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br>
+    - inline-block (make an element behave like an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br><br>
     
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
     - flex <br>
-      - We wrap the elements(tags) with a div with the display=flex to apply the flex structure. We add "flex" in the **_container_** div.
+      - We wrap the elements(tags) with a div with the display=flex to apply the flex structure. We add "flex" in the **_container_** div. <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/dec7624e-e086-4d0b-b00d-812f82dd86de" width=500px>
       
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/62ef91f7-8659-4133-92a8-2552f0de6b54" width=500px>
@@ -53,19 +53,30 @@
       - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line. **_It will only occupy as much width as the content_** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
 
-    -  flex-direction: row (by default, APPLIED TO THE PARENT) <br>
+    ### **_flex_**
+    #### PARENT (CONTAINER)
+    -  flex-direction: row (by default, APPLIED TO THE PARENT) <br><br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
-    - flex-direction: column <br>
+    - flex-direction: column <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
+    
+    #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
-      This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br>
-        - Column direction <br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
-        - Row direction <br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/4eb35126-7ca0-4040-b9da-1558dffccb5b" width=500px>
+      This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br><br>
+        - Column direction <br><br>
+          <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
+        - Row direction <br><br>
+          <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/4eb35126-7ca0-4040-b9da-1558dffccb5b" width=500px>
+    - order <br><br>
+        The `order` is used to change the order of the child flex item! <br><br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b1effae6-7df7-4084-bb4a-196b9b1b5471" width=500px> <br><br>
+        If only one of the items has the order set to any number greater than 0 then it'll shift to the end. <br><br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9f24ed19-ed2d-4862-a965-143308e20179" width=500px> <br><br>
+        But of course, if you have more than one child item with an order number > 0, then they will be ordered accordingly <br><br> 
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/be562e5c-82e5-4f8f-9a53-e5db7c956c64" width=500px>
 
       
-
+  <br><br>
   - **position**
     - static
     - relative
