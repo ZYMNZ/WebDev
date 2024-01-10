@@ -50,7 +50,7 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/62ef91f7-8659-4133-92a8-2552f0de6b54" width=500px>
       
     - inline-flex <br>
-      - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line <br>
+      - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line. **_It will only occupy as much width as the content_** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
 
     -  flex-direction: row (by default) <br>
