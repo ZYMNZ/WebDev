@@ -58,8 +58,14 @@
     -  flex-direction: row (by default, APPLIED TO THE PARENT) <br><br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
     - flex-direction: column <br><br>
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px>
-    
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px> <br><br>
+    - flex: nowrap <br>
+      it's ***NOT*** **responsive**, used when we don't want the child flex-items to move to the next line! <br> 
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/c79e498f-6786-42d6-b4e1-68c3cfa335b9" width=500px> <br>
+    - flex: wrap <br>
+      It's opposite to `nowrap`, where if the flex-items cant fit in one line because of the screen size, it'll wrap/move the items to the next line! (RESPONSIVE) <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px>
+
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
       This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br><br>
