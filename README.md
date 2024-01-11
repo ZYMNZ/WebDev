@@ -71,15 +71,17 @@
       > Note: to apply this type of CSS, there should be some space left! Meaning the items don't occupy the entire container. <br>
       
         - justify-content: flex-start
-          This will squish everything to the `left/start` side of the **container** <br>
+          This value will squish everything to the `left/start` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/e6cbf8f3-2195-4097-ad37-349891be0e93" width=500px> <br>
         - justify-content: flex-end
-          This will squish everything to the `right/end` side of the **container** <br>
+          This value will squish everything to the `right/end` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8e7ccccb-7332-4f40-b4f0-5be629c81e32" width=500px> <br>
         - justify-content: center
-          This will squish everything to the `center` of the **container** <br>
+          This value will squish everything to the `center` of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/12013ae5-9a06-4a4c-ae45-caddc2e0812f" width=500px>
-
+        - justify-content: space-between <br>
+          This value will input a space between every element and its adjacent item<br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9d273f5f-fb54-4090-9a54-c61c80ff8cda" width=500px> <br>
 
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
