@@ -76,6 +76,10 @@
         - justify-content: flex-end
           This will squish everything to the `right/end` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8e7ccccb-7332-4f40-b4f0-5be629c81e32" width=500px> <br>
+        - justify-content: center
+          This will squish everything to the `center` of the **container** <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/12013ae5-9a06-4a4c-ae45-caddc2e0812f" width=500px>
+
 
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
