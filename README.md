@@ -7,7 +7,7 @@
    `img`, `style`, `link`, `hr`, `meta`
 
 ### CSS
-  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`, `flex`, `inline-flex`
+  `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`, `flex`, `inline-flex`, `justify-content`, `align-items`
   
 #### Types of CSS: `internal`, `external`, `inline` 
   - internal: Write the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
@@ -67,21 +67,40 @@
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px> <br><br>
 
       ### **justify-content** <br>
-        - Sets the distribution of the items along the main-axis <br>
+        - Sets the distribution of the items along the `**main-axis**` <br>
       > Note: to apply this type of CSS, there should be some space left! Meaning the items don't occupy the entire container. <br>
       
         - justify-content: flex-start
           This value will squish everything to the `left/start` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/e6cbf8f3-2195-4097-ad37-349891be0e93" width=500px> <br>
+        
         - justify-content: flex-end
           This value will squish everything to the `right/end` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8e7ccccb-7332-4f40-b4f0-5be629c81e32" width=500px> <br>
+        
         - justify-content: center
           This value will squish everything to the `center` of the **container** <br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/12013ae5-9a06-4a4c-ae45-caddc2e0812f" width=500px>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/12013ae5-9a06-4a4c-ae45-caddc2e0812f" width=500px> <br>
+        
         - justify-content: space-between <br>
           This value will input a space between every element and its adjacent item<br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9d273f5f-fb54-4090-9a54-c61c80ff8cda" width=500px> <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9d273f5f-fb54-4090-9a54-c61c80ff8cda" width=500px> <br><br><br>
+
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/739de739-de90-4ff2-b34f-43ed2c968ce2" width=550px> <br>
+
+      ### **align-items**
+        - Sets the distribution of the items along the `**cross-axis**` <br>
+      > Note: That we need to set a **height** to the container, otherwise we won't see any changes! Another thing is, that flex-wrap has to be set to `nowrap` because it'll affect the behavior! <br>
+
+         - align-items: flex-start; height: 70vh (viewport height)
+           - `vh` (viewport height): it's the height of the window that you are viewing the page
+         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/3a866206-cd71-4f5e-85c8-ccdb63d767db" width=500px> <br>
+         
+         - align-items: flex-end; height: 70vh <br>
+           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6d4545c9-3857-46eb-9209-29ac8fa3d88f" width=500px>
+           
+
+
 
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
     - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
