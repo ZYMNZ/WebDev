@@ -10,7 +10,7 @@
   `width`, `height`, `color`, `background-color`, `display`, `position`, `float`, `clear`, `@media`, `flex`, `inline-flex`, `justify-content`, `align-items`
   
 #### Types of CSS: `internal`, `external`, `inline` 
-  - internal: Write the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
+  - `internal`: Write the CSS code in the **SAME** HTML file using the `<style></style>` tag. <br>
     Example: <br>
     <style> <br>
       p{ <br>
@@ -18,12 +18,12 @@
       } <br>
     </style>
     
-  - external: Write the CSS code in an external file for example `style.css` and we access it with the <link> tag. <br>
+  - `external`: Write the CSS code in an external file for example `style.css` and we access it with the <link> tag. <br>
     Example: <br>
     `<link rel="stylesheet" href="./style.css"/>` <br>
     note: Inside the href attribute it might be different depending on your file location!
   
-  - inline: Write the CSS code directly in the tag's attribute section using the `style` keyword. <br>
+  - `inline`: Write the CSS code directly in the tag's attribute section using the `style` keyword. <br>
     Example: <br>
     `<p style="color: red;>`
 #### CSS NOTES
@@ -34,35 +34,35 @@
     - 2em = 200% (meaning if the parent is 20px the element will be 2 x 20px = 40px)
   
   - **display**
-    - block (takes up the entire full width of the web page) <br><br>
+    - `block` (takes up the entire full width of the web page) <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/aff2b44c-df0d-44f3-9927-df4a181ecb26" width=500px>
       
-    - inline (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br><br>
+    - `inline` (only takes up as much width as necessary. It does not start on a new line and allows other elements to appear beside it.) <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/1e86f080-e2f6-41e3-9eda-e2af672b6e3e" width=500px>
       
-    - inline-block (make an element behave like an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br><br>
+    - `inline-block` (make an element behave like an inline and a block-level element. It allows the element to flow inline with surrounding content while maintaining block-level properties, such as setting a specific width and height.) <br><br>
     
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/0716a631-c872-45ba-bf46-7b59ef6e98ce" width=500px>
-    - flex <br>
+    - `flex` <br>
       - We wrap the elements(tags) with a div with the display=flex to apply the flex structure. We add "flex" in the **_container_** div. <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/dec7624e-e086-4d0b-b00d-812f82dd86de" width=500px>
       
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/62ef91f7-8659-4133-92a8-2552f0de6b54" width=500px>
       
-    - inline-flex <br>
+    - `inline-flex` <br>
       - Similar to the normal but flex, but the difference is that it doesn't take the full width, it allows other elements to occupy the same line. **_It will only occupy as much width as the content_** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b47aa49a-07f1-4a36-8803-2940de1f6396" width=450px>
 
     ### **_flex_**
     #### PARENT (CONTAINER)
-    -  flex-direction: row (by default, APPLIED TO THE PARENT) <br><br>
+    -  `flex-direction`: row (by default, APPLIED TO THE PARENT) <br><br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/553b8a35-8a2c-4a2c-a48b-bb15f7961d39" width=500px>
-    - flex-direction: column <br><br>
+    - `flex-direction`: column <br><br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/effaf000-eea9-4cc1-8529-98ada6a3df6b" width= 500px> <br><br>
-    - flex: nowrap <br>
+    - `flex`: nowrap <br>
       it's ***NOT*** **responsive**, used when we don't want the child flex-items to move to the next line! <br> 
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/c79e498f-6786-42d6-b4e1-68c3cfa335b9" width=500px> <br>
-    - flex: wrap <br>
+    - `flex`: wrap <br>
       It's opposite to `nowrap`, where if the flex-items cant fit in one line because of the screen size, it'll wrap/move the items to the next line! (RESPONSIVE) <br>
       <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px> <br><br>
 
@@ -70,19 +70,19 @@
         - Sets the distribution of the items along the `**main-axis**` <br>
       > Note: to apply this type of CSS, there should be some space left! Meaning the items don't occupy the entire container. <br>
       
-        - justify-content: flex-start
+        - `justify-content`: flex-start
           This value will squish everything to the `left/start` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/e6cbf8f3-2195-4097-ad37-349891be0e93" width=500px> <br>
         
-        - justify-content: flex-end
+        - `justify-content`: flex-end
           This value will squish everything to the `right/end` side of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8e7ccccb-7332-4f40-b4f0-5be629c81e32" width=500px> <br>
         
-        - justify-content: center
+        - `justify-content`: center
           This value will squish everything to the `center` of the **container** <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/12013ae5-9a06-4a4c-ae45-caddc2e0812f" width=500px> <br>
         
-        - justify-content: space-between <br>
+        - `justify-content`: space-between <br>
           This value will input a space between every element and its adjacent item<br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9d273f5f-fb54-4090-9a54-c61c80ff8cda" width=500px> <br><br><br>
 
@@ -92,38 +92,48 @@
         - Sets the distribution of the items along the `**cross-axis**` <br>
       > Note: That we need to set a **height** to the container, otherwise we won't see any changes! Another thing is, that flex-wrap has to be set to `nowrap` because it'll affect the behavior! <br>
 
-         - align-items: flex-start; height: 70vh (viewport height)
-           - `vh` (viewport height): it's the height of the window that you are viewing the page
-         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/3a866206-cd71-4f5e-85c8-ccdb63d767db" width=500px> <br>
+         - `align-items`: flex-start; height: 70vh (viewport height)
+           - `vh` (viewport height): it's the height of the window that you are viewing the page <br>
+           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/3a866206-cd71-4f5e-85c8-ccdb63d767db" width=500px> <br>
          
-         - align-items: flex-end; height: 70vh <br>
-           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6d4545c9-3857-46eb-9209-29ac8fa3d88f" width=500px>
+         - `align-items`: flex-end; height: 70vh <br><br>
+           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6d4545c9-3857-46eb-9209-29ac8fa3d88f" width=500px> <br>
            
+         - `align-items`: center; 70 vh <br><br>
 
+         - `align-content`: is used when the `flex-wrap` is set to `wrap`<br><br>
+           **"BEFORE"** <br><br>
+           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/46f99b0f-0953-4572-b612-c88e1349e78c" width="500px"> <br><br>
+           **"AFTER"** <br><br>
+           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/da2f0fc0-60ab-4c00-afcf-be8742cdefd3" width=500px> <br>
 
 
     #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
-    - flex-basis: ###px (APPLIED TO THE CHILDREN) <br>
+    - `flex-basis`: ###px (APPLIED TO THE CHILDREN) <br>
       This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br><br>
         - Column direction <br><br>
           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/535290c8-6652-498d-a443-e08fc6ebc987" width=500px> <br>
         - Row direction <br><br>
           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/4eb35126-7ca0-4040-b9da-1558dffccb5b" width=500px>
-    - order <br><br>
+    - `order` <br><br>
         The `order` is used to change the order of the child flex item! <br><br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b1effae6-7df7-4084-bb4a-196b9b1b5471" width=500px> <br><br>
         If only one of the items has the order set to any number greater than 0 then it'll shift to the end. <br><br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/9f24ed19-ed2d-4862-a965-143308e20179" width=500px> <br><br>
         But of course, if you have more than one child item with an order number > 0, then they will be ordered accordingly <br><br> 
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/be562e5c-82e5-4f8f-9a53-e5db7c956c64" width=500px>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/be562e5c-82e5-4f8f-9a53-e5db7c956c64" width=500px> <br><br>
 
+    - `align-self`:
+       - Used when we want to change the alignment of a specific item in the container <br>
+    <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/ed03128e-3be7-49ce-8823-c02e61ee8d33" width=500px>
+    
       
   <br><br>
   - **position**
-    - static
-    - relative
-    - absolute
-    - fixed
+    - `static`
+    - `relative`
+    - `absolute`
+    - `fixed`
    
   - **float**  
     - left <br><p>
