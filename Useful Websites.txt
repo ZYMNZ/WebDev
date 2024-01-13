@@ -40,3 +40,11 @@
 ^ example of a responsive website
 
 9. CSS Puns (memes)
+
+10. https://appbrewery.github.io/flex-layout/
+
+^ flex css style demo
+
+11. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+^ CSS-TRICKS, guide to FLEXBOX
