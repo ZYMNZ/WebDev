@@ -108,7 +108,7 @@
            <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/da2f0fc0-60ab-4c00-afcf-be8742cdefd3" width=500px> <br>
 
 
-    #### CHILDREN (ELEMENTS INSIDE THE CONTAINER)
+    #### CHILDREN (ELEMENTS INSIDE THE CONTAINER) 
     - `flex-basis`: ###px (APPLIED TO THE CHILDREN) <br>
       This will extend along the main-axis, we add "flex-basis" in the **_child_** div  <br><br>
         - Column direction <br><br>
