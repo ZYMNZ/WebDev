@@ -128,7 +128,14 @@
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/ed03128e-3be7-49ce-8823-c02e61ee8d33" width=500px>
     
     ### FLEX-SIZING
-      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/f56800f9-0ace-4b0f-ab20-3d93593a85d1" width=500px>
+      FLex-Sizing works according to a priority list <br>
+      <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/f56800f9-0ace-4b0f-ab20-3d93593a85d1" width=500px> <br>
+
+      Example: <br>
+      - Here we have a container that has the display set to flex, so by default, the flex-sizing is set to content width unless there's a higher priority that is set. <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6daceb8a-6859-4a9f-9a1b-65cabf3f4f62" width=500px> <br><br>
+        In case the screen is shrunk, each of the items will automatically shrink until they reach the minimum content size. <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/d880f429-33d7-421c-a4e8-6c780b9c2580" width=500px>
       
   <br><br>
   - **position**
