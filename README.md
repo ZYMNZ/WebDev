@@ -90,7 +90,7 @@
 
       ### **align-items**
         - Sets the distribution of the items along the `**cross-axis**` <br>
-      > Note: That we need to set a **height** to the container, otherwise we won't see any changes! Another thing is, that flex-wrap has to be set to `nowrap` because it'll affect the behavior! <br>
+      > Note: We need to set a **height** to the container, otherwise we won't see any changes! Another thing is, that flex-wrap has to be set to `nowrap` because it'll affect the behavior! <br>
 
          - `align-items`: flex-start; height: 70vh (viewport height)
            - `vh` (viewport height): it's the height of the window that you are viewing the page <br>
