@@ -139,7 +139,10 @@
         The `max-width`: the longest <ins>**possible line**</ins> of the text <br>
         The `min-width`: the longest <ins>**word**</ins> in the text <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8202ed4b-f9c4-47ae-8812-591a8691540f" width=500px> <br><br>
-        
+
+      - Assigning a specific _size_ to the flex-items: <br>
+        - In case we assigned a specific size to each item, the item's assigned size will be respected until the width of the screen be smaller than the assigned size. If the screen is smaller, the                   priority goes to the content size/width.  
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/d7486569-183e-4ab2-b0c9-7216fa54bef0" width=500px>
       
   <br><br>
   - **position**
