@@ -135,7 +135,11 @@
       - Here we have a container that has the display set to flex, so by `default`, the flex-sizing is set to content width unless there's a higher priority that is set. <br>
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/6daceb8a-6859-4a9f-9a1b-65cabf3f4f62" width=500px> <br><br>
         In case the screen is shrunk, each of the items will automatically shrink until they reach the minimum content size. <br><br>
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/d880f429-33d7-421c-a4e8-6c780b9c2580" width=500px>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/d880f429-33d7-421c-a4e8-6c780b9c2580" width=500px> <br><br>
+        The `max-width`: the longest <ins>**possible line**</ins> of the text <br>
+        The `min-width`: the longest <ins>**word**</ins> in the text <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8202ed4b-f9c4-47ae-8812-591a8691540f" width=500px> <br><br>
+        
       
   <br><br>
   - **position**
