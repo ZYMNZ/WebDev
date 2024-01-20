@@ -141,8 +141,8 @@
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/8202ed4b-f9c4-47ae-8812-591a8691540f" width=500px> <br><br>
 
       - Assigning a specific _size_ to the flex-items: <br>
-        - In case we assigned a specific size to each item, the item's assigned size will be respected until the width of the screen be smaller than the assigned size. If the screen is smaller, the                   priority goes to the content size/width.  
-        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/d7486569-183e-4ab2-b0c9-7216fa54bef0" width=500px>
+        - In case we assigned a specific size to each item (for example 100px), the item's assigned size will be respected until the overall width of the container gets smaller than the assigned size. If             the screen is smaller, the priority goes to the content size/width. <br>
+        <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/a02eb85f-7ae3-489f-88a1-ed980617854c" width=500px> <br>
       
   <br><br>
   - **position**
