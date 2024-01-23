@@ -1,6 +1,6 @@
 # NOTE this will be updated frequently! 
 
-## Technologies learned🛠️<br>
+## Technologies learned🛠️ <br>
 ### HTML <br>
   `h1`-`h6`, `p`, `ul`, `ol`, `li`, `script`, `a`, `title`, `span`, `div`
   - void tags (they only have an opening tag): <br>
