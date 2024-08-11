@@ -67,7 +67,7 @@
           <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/b8ea7522-0c79-4e17-9e47-74c367850f90" width=500px> <br><br>
 
       ### **justify-content** <br>
-        - Sets the distribution of the items along the `**main-axis**` <br>
+        - Sets the distribution of the items along the **`main-axis`** <br>
       > Note: to apply this type of CSS, there should be some space left! Meaning the items don't occupy the entire container. <br>
       
         - `justify-content`: flex-start
