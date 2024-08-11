@@ -88,8 +88,8 @@
 
         <img src="https://github.com/ZYMNZ/WebDev/assets/98342638/739de739-de90-4ff2-b34f-43ed2c968ce2" width=550px> <br>
 
-      ### **align-items**
-        - Sets the distribution of the items along the `**cross-axis**` <br>
+      ### align-items
+        - Sets the distribution of the items along the **`cross-axis`** <br>
       > Note: We need to set a **height** to the container, otherwise we won't see any changes! Another thing is, that flex-wrap has to be set to `nowrap` because it'll affect the behavior! <br>
 
          - `align-items`: flex-start; height: 70vh (viewport height)
